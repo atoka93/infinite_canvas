@@ -66,7 +66,7 @@ class NodeRenderer extends StatelessWidget {
             ),
           ),
         Positioned.fill(
-          key: key,
+          key: node.key,
           child: node.clipBehavior != Clip.none
               ? ClipRect(
                   clipper: Clipper(node.rect),
