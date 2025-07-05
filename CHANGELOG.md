@@ -1,3 +1,7 @@
+## 0.0.11
+
+- Avoid unnecessary node rebuilds
+
 ## 0.0.10
 
 - Added DragHandlers for edges to resize a node in only one dimension @schaetz
